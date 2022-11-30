@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80vw;
+}
+
+.nav{
+    position: fixed;
+    background-color: beige;
+    width: 85%;
+    
+   
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+   
+    float: left;
+    
+}
+.navbar ul{
+    float:right;
+}
+.navbar li{
+
+display: inline-block;
+list-style: none;
+margin: 0 12px;
+font-family: 'Ubuntu', sans-serif;
+cursor: pointer;
+
+
+}
+
+.top-left{
+width: 50%;
+padding: 1px 0;
+}
+.abt{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 60%;
+    height: 200px;
+}
+.abt2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 60%;
+    height: 200px;
+}
+.top-right{
+width: 50%;
+
+
+
+}
+.section1{
+    max-height: 100vh;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+
+}
+.top-right .gymimg{
+    width: 300px;
+}
+.section2{
+    background-color: #0a0a0a;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        width: 110%;
+  
+    
+}
+.section2 img{
+  height: 200px;
+  padding: 10px;
+ 
+ 
+}
+.section2 h1{
+    color: aliceblue;
+}
+.section2 p{
+    color: white;
+}
+.box{
+   margin: 12px 22px;
+   min-width: 20vw;
+   border: 2px solid rgb(110, 48, 48);
+   text-align: left;
+} 
+.box ul{
+    list-style: none;
+    padding: 10px;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.my-p2{
+   height: 250px; 
+      padding: 5px;
+      width: 100%;
+}
+.section2 h1{
+    margin: 0;
+}
+.section2 p{
+    margin: 0;
+}
+b {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    font: bold 18px sans-serif;
+    background: #fd7c2a;
+   
+}
+b:hover {
+    background: #3cc16e;
+}
+.button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button:hover {
+    background-color: #182218;
+    color: rgb(108, 95, 95);
+  }
+  
